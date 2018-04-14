@@ -1,4 +1,4 @@
 ## the cpu to build for
 export CPU = stm32l1
 export CPU_MODEL = stm32l152re
-
+OFLAGS = -O ihex
